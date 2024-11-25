@@ -1,0 +1,178 @@
+{
+    "profileData": {
+        "title": "About Me",
+        "descriptionTitle": "I am a Professional UI/UX Designer and Web Developer.",
+        "descriptionText": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore...",
+        "profileImage": "/images/about/man_profile_image.avif",
+        "contactInfo": [
+            {
+                "label": "Phone",
+                "type": "phone",
+                "value": "123-456-7890",
+                "display": "123-456-7890"
+            },
+            {
+                "label": "Email",
+                "type": "email",
+                "value": "example@info.com",
+                "display": "example@info.com"
+            },
+            {
+                "label": "Website",
+                "type": "website",
+                "value": "https://react-vite-portfolio-app.vercel.app/",
+                "display": "www.porfolio.com"
+            }
+        ],
+        "socialLinks": [
+            {
+                "icon": "fa-facebook",
+                "url": "https://facebook.com"
+            },
+            {
+                "icon": "fa-dribbble",
+                "url": "https://dribbble.com"
+            },
+            {
+                "icon": "fa-twitter",
+                "url": "https://twitter.com"
+            },
+            {
+                "icon": "fa-linkedin",
+                "url": "https://linkedin.com"
+            },
+            {
+                "icon": "fa-instagram",
+                "url": "https://instagram.com"
+            }
+        ]
+    },
+    "skillsData": [
+        {
+            "name": "Adobe Photoshop",
+            "value": 90
+        },
+        {
+            "name": "Adobe Illustrator",
+            "value": 85
+        },
+        {
+            "name": "Adobe After Effects",
+            "value": 97
+        },
+        {
+            "name": "Sketch",
+            "value": 90
+        },
+        {
+            "name": "HTML 5",
+            "value": 90
+        },
+        {
+            "name": "CSS 3 Animation",
+            "value": 85
+        },
+        {
+            "name": "Communication",
+            "value": 97
+        },
+        {
+            "name": "Creativity",
+            "value": 90
+        }
+    ],
+    "experienceData": [
+        {
+            "duration": "2022 - Present",
+            "title": "Creative Director",
+            "company": "Hoplony Tech Limited",
+            "location": "New York, USA",
+            "description": "Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident."
+        },
+        {
+            "duration": "2020 - 2022",
+            "title": "Associate Design Director",
+            "company": "Hoplony Tech Limited",
+            "location": "New York, USA",
+            "description": "Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident."
+        }
+    ],
+    "projectData": [
+        {
+            "id": 1,
+            "category": "ui/ux design",
+            "image": "/images/portfolio/p1.jpg"
+        },
+        {
+            "id": 2,
+            "category": "ui/ux design",
+            "image": "/images/portfolio/p2.jpg"
+        },
+        {
+            "id": 3,
+            "category": "web design",
+            "image": "/images/portfolio/p1.jpg"
+        },
+        {
+            "id": 4,
+            "category": "web development",
+            "image": "/images/portfolio/p4.jpg"
+        },
+        {
+            "id": 5,
+            "category": "web development",
+            "image": "/images/portfolio/p5.jpg"
+        },
+        {
+            "id": 6,
+            "category": "web design",
+            "image": "/images/portfolio/p4.jpg"
+        }
+    ],
+    "contactDetails": {
+        "name": "Vishnu Mevada",
+        "title": "UI/UX Designer",
+        "contactInfo": [
+            {
+                "label": "Phone",
+                "type": "phone",
+                "value": "123-456-7890",
+                "display": "123-456-7890"
+            },
+            {
+                "label": "Email",
+                "type": "email",
+                "value": "example@info.com",
+                "display": "example@info.com"
+            },
+            {
+                "label": "Website",
+                "type": "website",
+                "value": "https://react-vite-portfolio-app.vercel.app/",
+                "display": "https://react-vite-portfolio-app.vercel.app/"
+            }
+        ],
+        "socialLinks": [
+            {
+                "icon": "fa-facebook",
+                "url": "https://facebook.com"
+            },
+            {
+                "icon": "fa-dribbble",
+                "url": "https://dribbble.com"
+            },
+            {
+                "icon": "fa-twitter",
+                "url": "https://twitter.com"
+            },
+            {
+                "icon": "fa-linkedin",
+                "url": "https://linkedin.com"
+            },
+            {
+                "icon": "fa-instagram",
+                "url": "https://instagram.com"
+            }
+        ]
+    }
+}
