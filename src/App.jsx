@@ -1,13 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
+import { Header, Welcome, About } from './components/index';
+import constants from './constants.json';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const profileData = constants.profileData;
 
   return (
     <>
       <div>
-        <h1>HELLO!</h1>
+        <Header></Header>
+        <Welcome></Welcome>
+        <About profileData={profileData}></About>
       </div>
     </>
   )
