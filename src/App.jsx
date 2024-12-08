@@ -1,11 +1,12 @@
 import './App.css';
-import { Header, Welcome, About, Skills, Experience } from './components/index';
+import { Header, Welcome, About, Skills, Experience, Portfolio } from './components/index';
 import constants from './constants.json';
 
 function App() {
   const profileData = constants.profileData;
   const skillsData = constants.skillsData;
   const experienceData = constants.experienceData;
+  const projectData = constants.projectData;
 
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <About profileData={profileData}></About>
         <Skills skillsData={skillsData}></Skills>
         <Experience experienceData={experienceData}></Experience>
+        <Portfolio projectData={projectData}></Portfolio>
       </div>
     </>
   )
