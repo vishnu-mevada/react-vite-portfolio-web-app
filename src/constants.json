@@ -20,8 +20,8 @@
             {
                 "label": "Website",
                 "type": "website",
-                "value": "https://react-vite-portfolio-app.vercel.app/",
-                "display": "https://react-vite-portfolio-app.vercel.app"
+                "value": "https://react-vite-portfolio-web-app.vercel.app/",
+                "display": "https://react-vite-portfolio-web-app.vercel.app"
             }
         ],
         "socialLinks": [
@@ -148,8 +148,8 @@
             {
                 "label": "Website",
                 "type": "website",
-                "value": "https://react-vite-portfolio-app.vercel.app/",
-                "display": "https://react-vite-portfolio-app.vercel.app/"
+                "value": "https://react-vite-portfolio-web-app.vercel.app/",
+                "display": "https://react-vite-portfolio-web-app.vercel.app"
             }
         ],
         "socialLinks": [
