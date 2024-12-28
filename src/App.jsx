@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, Welcome, About, Skills, Experience, Portfolio, Contact } from './components/index';
+import { Header, Welcome, About, Skills, Experience, Portfolio, Contact, Footer } from './components/index';
 import constants from './constants.json';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Experience experienceData={experienceData}></Experience>
         <Portfolio projectData={projectData}></Portfolio>
         <Contact></Contact>
+        <Footer></Footer>
       </div>
     </>
   )

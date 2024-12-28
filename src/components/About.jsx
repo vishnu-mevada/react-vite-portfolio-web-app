@@ -15,7 +15,7 @@ const About = ({ profileData }) => {
                 <p>{profileData.descriptionText}</p>
                 <div className="row">
                   {profileData.contactInfo.map((contact, index) => (
-                    <div key={index} className="col-sm-4">
+                    <div key={index} className={contact.type === 'website' ? 'col-sm-12' : 'col-sm-6'}>
                       <div className="single-about-add-info">
                         <h3>{contact.label}</h3>
                         <p>

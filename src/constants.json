@@ -21,7 +21,7 @@
                 "label": "Website",
                 "type": "website",
                 "value": "https://react-vite-portfolio-app.vercel.app/",
-                "display": "www.porfolio.com"
+                "display": "https://react-vite-portfolio-app.vercel.app"
             }
         ],
         "socialLinks": [

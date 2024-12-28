@@ -8,6 +8,14 @@ const Header = () => {
         setIsOpen(!isOpen);
     }
 
+    const handleScroll = (e, id) => {
+        e.preventDefault();
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({behavior: "smooth", block: "start"});
+        }
+    };
+
     return (
         <>
             <nav className="navbar navbar-default bootsnav navbar-fixed dark no-background">
@@ -34,27 +42,27 @@ const Header = () => {
                             data-out="fadeOutUp"
                         >
                             <li className="smooth-menu">
-                                <a href="#about">
+                                <a href="#about" onClick={(e) => handleScroll(e, "about")}>
                                     about
                                 </a>
                             </li>
                             <li className="smooth-menu">
-                                <a href="#skills">
+                                <a href="#skills" onClick={(e) => handleScroll(e, "skills")}>
                                     skills
                                 </a>
                             </li>
                             <li className="smooth-menu">
-                                <a href="#experience">
+                                <a href="#experience" onClick={(e) => handleScroll(e, "experience")}>
                                     experience
                                 </a>
                             </li>
                             <li className="smooth-menu">
-                                <a href="#portfolio">
+                                <a href="#portfolio" onClick={(e) => handleScroll(e, "portfolio")}>
                                     portfolio
                                 </a>
                             </li>
                             <li className="smooth-menu">
-                                <a href="#contact">
+                                <a href="#contact" onClick={(e) => handleScroll(e, "contact")}>
                                     contact
                                 </a>
                             </li>
